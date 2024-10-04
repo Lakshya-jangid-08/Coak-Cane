@@ -1,0 +1,164 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flex{display:flex;}
+.gp{gap: 10px;}
+.wrap{flex-wrap: wrap;}
+.dircol{flex-direction: column;}
+.hide{visibility: hidden;}
+.ac{align-items: center;}
+.sp{justify-content: space-between;}
+.jc{justify-content: center;}
+.block{display:block;}
+.black{background-color: #000000;}
+.red{background-color: crimson;}
+.blue{background-color: royalblue;}
+.violet{background-color: violet;}
+.green{background-color: seagreen;}
+.wood{background-color: burlywood;}
+.bb{border: 2px solid black;}
+.bw{border: 2px solid rgb(255, 255, 255);}
+.edit{color :yellow; text-decoration: none;}
+.like{color : hotpink; text-decoration: none;}
+.by{border: 2px solid rgb(251, 255, 0);}
+.dlt{color : rgb(255, 17, 0); text-decoration: none;}
+.fw{width: 100vw;}
+.fh{height: 100vh;}
+.mg{margin: 15px;}
+.rd{border-radius: 10px;}
+.pd{padding: 5px 10px 5px 10px;}
+.page{
+    height: 100vh;
+    width: 100vw;
+    
+        background-image: linear-gradient(93deg, rgb(0, 0, 0), rgb(94 109 123));
+}
+.product{
+    width: 32vmax;
+    height: 18vmax;
+    position: absolute;
+    bottom: 52vh;
+    left: 53vw;
+    transition:1s;
+    transform: translateX(-50%);
+    --left:0px;
+    display: flex;
+}
+.cane{
+    background: url(Cock_cane.png) 0px ,
+    var(--url) var(--left) 0px ;
+    
+    background-blend-mode: multiply;
+    mask-image: url(Cock_cane.png);
+    mask-size: auto 44vmax;
+    aspect-ratio: 1;
+    background-size: auto 100%;
+    width: 45vmax;
+    height: 45vmax;
+    transition: 1s;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+.product:hover{
+    transform: translateX(-50%) translateY(-120px);
+    --left : -1000px;
+}
+.first{
+    opacity: 1;
+}
+.second {
+    opacity: 0;
+}
+.second:hover{
+    opacity: 2;
+}
+/*
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flex { display: flex; }
+.gp { gap: 10px; }
+.wrap { flex-wrap: wrap; }
+.dircol { flex-direction: column; }
+.hide { visibility: hidden; }
+.ac { align-items: center; }
+.sp { justify-content: space-between; }
+.jc { justify-content: center; }
+.block { display: block; }
+.black { background-color: #000000; }
+.red { background-color: crimson; }
+.blue { background-color: royalblue; }
+.violet { background-color: violet; }
+.green { background-color: seagreen; }
+.wood { background-color: burlywood; }
+.bb { border: 2px solid black; }
+.bw { border: 2px solid rgb(255, 255, 255); }
+.edit { color: yellow; text-decoration: none; }
+.like { color: hotpink; text-decoration: none; }
+.by { border: 2px solid rgb(251, 255, 0); }
+.dlt { color: rgb(255, 17, 0); text-decoration: none; }
+.fw { width: 100vw; }
+.fh { height: 100vh; }
+.mg { margin: 15px; }
+.rd { border-radius: 10px; }
+.pd { padding: 5px 10px; }
+
+.page {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+.product {
+    width: 32vmax;
+    height: 18vmax;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: 1s;
+    display: flex;
+}
+
+.cane {
+    background: url(Cock_cane.png), var(--url) var(--left) 0px;
+    background-blend-mode: multiply;
+    mask-image: url(Cock_cane.png);
+    mask-size: contain;
+    aspect-ratio: 1;
+    background-size: contain;
+    background-position: center;
+    width: 45vmax;
+    transition: 1s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product:hover {
+    transform: translateX(-50%) translateY(-120px);
+    --left: -1000px;
+}
+
+.first {
+    opacity: 1;
+}
+
+.second {
+    opacity: 0;
+}
+
+.second:hover {
+    opacity: 2;
+}
+
+*/
